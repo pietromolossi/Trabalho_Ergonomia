@@ -16,6 +16,50 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   bottom: 0;
   height: inherit;
 }
+
+
+
+
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 </style>
 <body>
 
@@ -53,22 +97,25 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Itay Peceniski</h1>
       <p><b>Sobre:</b> Itay Peceniski tem 21 anos e nasceu em Israel. Veio para o Brasil quando completou 2 anos de vida e é fluente na língua. Itay também estuda Análise e Desenvolvimento de Sistemas na Universidade Federal do Paraná - UFPR. Itay é desenvolvedor de Sistemas na empresa CINQ - Technologies</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+
+      <div class="w3-third w3-container">
+        <div class="container">
+          <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text">Itay Peceniski</div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
 
 
     <div class="w3-row">
       <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal">Pietro Molossi o foda</h1>
+        <h1 class="w3-text-teal">Pietro Alberti Molossi</h1>
         <p><b>Sobre:</b> Pietro Molossi estuda Análise e Desenvolvimento de Sistemas na Universidade Federal do Paraná - UFPR. Atualmente (2018) é funcionário da empresa Korp e lá é responsável pela Análise de código e correção de bugs. Pietro é poliglota e ávido em aprender novas línguas</p>
-      </div>
-      <div class="w3-third w3-container">
-        <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-        <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
       </div>
     </div>
 
@@ -77,10 +124,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Alessandro Tonini Vilas-Boas</h1>
       <p><b>Sobre:</b> Alessandro Tonini Vilas-Boas é formado no curso de Letras pela Universidade Técnica Federal do Paraná - UTFPR. Trabalhou muitos anos lecionando classes de Inglês em escolas particulares, e atualmente (2018) dedica seu tempo mantendo sites para a empresa Korp. Alessandro, assim como Itay e Pietro estuda Análise e Desenvolvimento de Sistemas na Universidade Federal do Paraná - UFPR.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
     </div>
   </div>
 
