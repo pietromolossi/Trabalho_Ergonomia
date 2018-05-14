@@ -21,6 +21,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     text-indent: 30px;
     margin-left: 10px;
   }
+
+  #map {
+  height: 300px;
+  width: 100%;
+ }
+
 </style>
 <body>
 
@@ -47,6 +53,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
     <div class="w3-row w3-padding-64">
       <div class="w3-twothird w3-container">
+        <h1 class="w3-text-teal">Sobre o Curso</h1>
+        <p>Seja bem-vindo(a) ao curso Hebraico Fácil!. Este um curso para iniciantes em hebraico. Conosco, você aprenderá desde a história da língua à alguns princípios básicos de escrita, além de reconhecer palavras cotidianas em hebraico.</p>
+        <p>O curso está dividido em 5 aulas simples e tem duração aproximada de 15 minutos. Todas as aulas são maestradas pelo professor Itay Peceniski.</p>
+        <p>As 5 aulas estão didáticamente dispostas para que você possa disfrutar ao máximo o curso! Para poder avaliar o seu conhecimento, você pode solicitar o preenchimento de um teste, que contém 10 questões sobre todo o tema abordado.</p>
+        <p>Será um prazer tê-lo como aluno(a)!</p>
+          <b><p>Bons estudos!</p></b>
+      </div>
+    </div>
+
+
+    <div class="w3-row w3-padding-40">
+      <div class="w3-twothird w3-container">
         <h1 class="w3-text-teal">Por que devo aprender hebraico?</h1>
         <p>Existem diversos motivos para aprender o Hebraico. Alunos ao redor de todo mundo buscam, principalmente, estudar esta língua para ler as Escrituras (Velho e Novo Testamento) em seu documento original.</p>
         <p>Mas, se isso ainda não é motivo suficiente para você, existem outros. O Hebraico é a língua oficial do Estado de Israel e isto a torna muito procurada, pois Israel é um país que se destaca em diversas áreas. Podemos destacar algumas delas, como:</p>
@@ -64,14 +82,43 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       </div>
     </div>
 
+
     <div class="w3-row w3-padding-64">
       <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal">Objetivo do Curso</h1>
-        <p>Ao final deste curso, você será capaz de reconhecer o alfabeto hebraico, ler e pronunciar frases simples.</p>
+        <h1 class="w3-text-teal">Sobre o projeto</h1>
+        <p>O curso Hebraico Fácil, pertence à disciplina Ergonomia das Interfaces e Aplicações do Curso Superior Tecnologia em Análise e Desenvolvimento de Sistemas - UFPR.</p>
+        <p>A disciplina trata de formar desenvolvedores que sejam também capazes de criar aplicações ergonômicas. E o objetivo do trabalho final proposto pela professora Sandramara S. K. de Paula Soares é justamente este: desenvolver uma aplicação Web que utilize critérios ergonômicos para transmitir algum tipo de conhecimento - no caso, o Hebraico.</p>
       </div>
     </div>
 
-
+    <div class="w3-row w3-padding-64">
+      <div class="w3-twothird w3-container">
+        <h1 class="w3-text-teal">Contato</h1>
+        <p><b>Criadores: </b>Itay Peceniski; Pietro A. Molossi; Alessandro Tonini V.</p>
+        <p><b>Disciplina: </b>Ergonomia das Interfaces e Aplicações</p>
+        <p><b>Professora: </b>Sandramara S. K. de Paula Soares</p>
+        <p><b>Curso Superior: </b>Tecnologia em Análise e Desenvolvimento de Sistemas</p>
+        <p><b>Setor: </b>SEPT - Setor de Educação Educacional e Profissional</p>
+        <p><b>Endereço: </b>Rua Dr. Alcides Vieira Arco Verde, 1225 - Jardim das Americas, Curitiba - PR</p>
+        <div id="map"></div>
+          <script>
+            function initMap() {
+              var uluru = {lat: -25.456874, lng: -49.235918};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 18,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0hAr310F14jWu4Ev1KnwIhKUDmBhWqbM&callback=initMap">
+          </script>
+      </div>
+    </div>
 
   <!-- END MAIN -->
   </div>
