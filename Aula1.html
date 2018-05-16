@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <title>Hebraico Fácil - Aula 1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+    }
+
+    p{
+      text-indent: 30px;
+      margin-left: 10px;
+    }
+
+    button{
+      background-color: #008CBA; /* Blue */
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      border: none;
+      padding: 10px 22px;
+      cursor: pointer;
+
+    }
+
+    iframe{
+      border: solid black 1px;
+      width: 700px;
+      height: 400px;
+      margin-left: 50px;
+    }
+
+    p{
+      margin-left: 30px;
+    }
+    h1{
+      margin-left: 30px;
+    }
+
+    a{
+      color: blue;
+    }
+  </style>
+  <body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+        <a href="AulasHebraico_Index.html" class="w3-bar-item w3-button w3-theme-l1">Aulas</a>
+        <a href="SobreProfessores.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sobre os professores</a>
+        <a href="SobreCurso.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sobre o curso</a>
+        <a href="Teste.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Teste</a>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+        <i class="fa fa-remove"></i>
+      </a>
+      <h4 class="w3-bar-item"><b>Aulas</b></h4>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula1.html">Aula 1 - Apresentação do curso</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula2.html">Aula 2 - História da Língua Hebraica</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula3.html">Aula 3 - Princípios básicos</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula4.html">Aula 4 - Conhecendo o alfabeto</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula5.html">Aula 5 - Palavras básicas</a>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+    <div class="w3-main" style="margin-left:250px">
+
+      <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Aula 1 - Sobre o curso</h1>
+          <p><b>Objetivo:</b> Após esta aula, o aluno conhecerá quais serão todos os assuntos abordados durante o curso e quais as diretrizes traçadas.</p>
+          <p><b>Duração:</b> 5 minutos.</p>
+          <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+          </iframe>
+          <p><b>Tópicos:</b></p>
+          <p>No final deste curso você será capaz de XYZ</p>
+          <p>Haverá um teste</p>
+          <p>São X aulas que duram em media Y minutos</p>
+          <p>Sucesso nos estudos!</p>
+          <p>Indicar leituras complementares</p>
+          <p>Citar requisitos básicos</p>
+          <p>Citar SEPT</p>
+        </div>
+      </div>
+
+      <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">A aula</h1>
+          <p>Você acaba de começar o curso Hebraico Fácil! É um prazer tê-lo(a) como aluno(a)!</p>
+
+          <p>Saiba que este é um curso <strong>básico</strong> de Hebraico. Portanto, não há nenhum pré-requisito para assistir as aulas. E, caso você já possua algum conhecimento prévio da língua, é possível que o curso pareça muito superficial.</p>
+
+          <p><strong>O curso está dividido em 5 aulas, cujo os temas para cada uma delas é:</strong></p>
+          <p>- Aula 1: Introdução</p>
+          <p>- Aula 2: História</p>
+          <p>- Aula 3: Princípios</p>
+          <p>- Aula 4: Alfabeto</p>
+          <p>- Aula 5: Palavras básicas</p>
+
+          <p>Para todos os alunos que desejarem se aprofundar um pouco mais no Hebraico, a plataforma <a href="https://www.duolingo.com/">Duolingo</a> é uma ótima opção. A plataforma, que está disponível na Web, em aplicações Android e IOS, é capaz de treinar a leitura, escrita e oratória na língua. Uma desvantagem é que o curso só está disponível para inglês.</p>
+        </div>
+      </div>
+
+
+
+
+      <!-- Pagination -->
+      <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a class="w3-button w3-black" href="Aula1.html">1</a>
+          <a class="w3-button w3-hover-black" href="Aula2.html">2</a>
+          <a class="w3-button w3-hover-black" href="Aula3.html">3</a>
+          <a class="w3-button w3-hover-black" href="Aula4.html">4</a>
+          <a class="w3-button w3-hover-black" href="Aula5.html">5</a>
+        </div>
+      </div>
+
+      <footer id="myFooter">
+        <div class="w3-container w3-theme-l2 w3-padding-25">
+          <p>Rua Dr. Alcides Vieira Arco Verde - SEPT - UFPR</p>
+
+        </div>
+
+        <div class="w3-container w3-theme-l1">
+          <p>Powered by BlueCapivaraTeam</p>
+        </div>
+      </footer>
+
+    <!-- END MAIN -->
+    </div>
+
+    <script>
+    // Get the Sidebar
+    var mySidebar = document.getElementById("mySidebar");
+
+    // Get the DIV with overlay effect
+    var overlayBg = document.getElementById("myOverlay");
+
+    // Toggle between showing and hiding the sidebar, and add overlay effect
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+      } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+      overlayBg.style.display = "none";
+    }
+  </script>
+
+  </body>
+</html>

@@ -16,6 +16,28 @@
       bottom: 0;
       height: inherit;
     }
+
+    button{
+      background-color: #008CBA; /* Blue */
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      border: none;
+      padding: 10px 22px;
+      cursor: pointer;
+    }
+
+    .TituloPag{
+      padding-top: 70px;
+      padding-bottom: 40px;
+      text-align: center;
+    }
+
+    .w3-row{
+      padding-left: 5px;
+    }
+
+
   </style>
   <body>
 
@@ -26,7 +48,7 @@
         <a href="AulasHebraico_Index.html" class="w3-bar-item w3-button w3-theme-l1">Aulas</a>
         <a href="SobreProfessores.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sobre os professores</a>
         <a href="SobreCurso.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sobre o curso</a>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Teste</a>
+        <a href="Teste.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Teste</a>
       </div>
     </div>
 
@@ -36,11 +58,11 @@
         <i class="fa fa-remove"></i>
       </a>
       <h4 class="w3-bar-item"><b>Aulas</b></h4>
-      <a class="w3-bar-item w3-button w3-hover-black" href="#">Aula 1 - Apresentação do curso</a>
-      <a class="w3-bar-item w3-button w3-hover-black" href="#">Aula 2 - História da Língua Hebraica</a>
-      <a class="w3-bar-item w3-button w3-hover-black" href="#">Aula 3 - Princípios básicos</a>
-      <a class="w3-bar-item w3-button w3-hover-black" href="#">Aula 4 - Conhecendo o alfabeto</a>
-      <a class="w3-bar-item w3-button w3-hover-black" href="#">Aula 5 - Palavras básicas</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula1.html">Aula 1 - Apresentação do curso</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula2.html">Aula 2 - História da Língua Hebraica</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula3.html">Aula 3 - Princípios básicos</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula4.html">Aula 4 - Conhecendo o alfabeto</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="Aula5.html">Aula 5 - Palavras básicas</a>
     </nav>
 
     <!-- Overlay effect when opening sidebar on small screens -->
@@ -49,89 +71,74 @@
     <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
     <div class="w3-main" style="margin-left:250px">
 
+      <div class="TituloPag">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Índice de aulas</h1>
+        </div>
+      </div>
+
+
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Aula 1 - Sobre o curso</h1>
-          <p><b>Objetivo: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><b>Duração: </b></p>
-          <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Começe já!</button>
-
+          <p><b>Objetivo: </b> Após esta aula, o aluno conhecerá quais serão todos os assuntos abordados durante o curso e quais as diretrizes traçadas.
+          </br></br>
+          <b>Duração:</b> 5 minutos.</p>
+          <a href="Aula1.html"><button>Assistir aula!</button></a>
         </div>
-          <div class="w3-third w3-container">
-            <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-            <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-          </div>
       </div>
 
 
       <div class="w3-row">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Aula 2 - História da Língua Hebraica</h1>
-          <p><b>Objetivo: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><b>Duração: </b></p>
+          <p><b>Objetivo: </b>Nesta aula o aluno conhecerá a história da Lingua Hebraica e a reestruturação linguística criada por Eliezer Ben Yehuda
+          </br></br>
+          <b>Duração:</b> 5 minutos.</p>
+          <a href="Aula2.html"><button>Assistir aula!</button></a>
         </div>
-          <div class="w3-third w3-container">
-            <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-            <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-          </div>
       </div>
 
 
       <div class="w3-row">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Aula 3 - Princípios básicos</h1>
-          <p><b>Objetivo: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><b>Duração: </b></p>
-        </div>
-        <div class="w3-third w3-container">
-          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+          <p><b>Objetivo: </b> O objetivo desta aula é ensinar ao aluno alguns princípios básicos da língua. Como a forma de escrita, pronúncias e o plural.
+          </br></br>
+          <b>Duração:</b> 5 minutos.</p>
+          <a href="Aula3.html"><button>Assistir aula!</button></a>
         </div>
       </div>
 
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Aula 4 - Conhecendo o alfabeto</h1>
-          <p><b>Objetivo: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><b>Duração: </b></p>
-        </div>
-        <div class="w3-third w3-container">
-          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+          <p><b>Objetivo: </b>Nesta aula, o aluno conhecerá as 27 letras do alfabeto hebraico. De <i>Alef</i> à <i>Taf</i>.
+          </br></br>
+          <b>Duração:</b> 5 minutos.</p>
+          <a href="Aula4.html"><button>Assistir aula!</button></a>
         </div>
       </div>
 
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Aula 5 - Palavras básicas</h1>
-          <p><b>Objetivo: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><b>Duração: </b></p>
-        </div>
-        <div class="w3-third w3-container">
-          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+          <p><b>Objetivo: </b>Nesta aula, o aluno conhecerá o significado de algumas palavras básicas, muito usadas no dia-a-dia.
+          </br></br>
+          <b>Duração:</b> 5 minutos.</p>
+          <a href="Aula5.html"><button>Assistir aula!</button></a>
         </div>
       </div>
 
-      <!-- Pagination -->
-      <div class="w3-center w3-padding-32">
-        <div class="w3-bar">
-          <a class="w3-button w3-black" href="#">1</a>
-          <a class="w3-button w3-hover-black" href="#">2</a>
-          <a class="w3-button w3-hover-black" href="#">3</a>
-          <a class="w3-button w3-hover-black" href="#">4</a>
-          <a class="w3-button w3-hover-black" href="#">5</a>
-          <a class="w3-button w3-hover-black" href="#">»</a>
-        </div>
-      </div>
 
       <footer id="myFooter">
-        <div class="w3-container w3-theme-l2 w3-padding-32">
-          <h4>Footer</h4>
+        <div class="w3-container w3-theme-l2 w3-padding-25">
+          <p>Rua Dr. Alcides Vieira Arco Verde - SEPT - UFPR</p>
+
         </div>
 
         <div class="w3-container w3-theme-l1">
-          <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+          <p>Powered by BlueCapivaraTeam</p>
         </div>
       </footer>
 
